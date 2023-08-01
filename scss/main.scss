@@ -48,6 +48,7 @@ nav {
         display: flex;
         @include buttonstyle;
         .logo {
+            padding-right: 15px;
             img {
                 width: 2rem;
                 height: 2rem;

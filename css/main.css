@@ -32,6 +32,9 @@ nav .icons button {
   background: none;
   border-style: none;
 }
+nav .icons .logo {
+  padding-right: 15px;
+}
 nav .icons .logo img {
   width: 2rem;
   height: 2rem;
