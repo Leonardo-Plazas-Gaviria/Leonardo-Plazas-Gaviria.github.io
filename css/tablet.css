@@ -1,0 +1,12 @@
+article {
+  display: flex;
+}
+article .impact-section h1 {
+  padding-right: 3rem;
+}
+article .impact-section p {
+  padding-right: 3rem;
+}
+article .impact-section button {
+  margin: 0;
+}/*# sourceMappingURL=tablet.css.map */
