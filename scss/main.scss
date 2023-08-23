@@ -6,11 +6,14 @@ $cuaternary-color: #1E2022;
 $font-stack: 'IBM Plex Sans', sans-serif;
 
 
+
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 // mixin con argumentos
 @mixin flexcenter ($direction, $content, $align) {
     display: flex;
@@ -26,19 +29,19 @@ $font-stack: 'IBM Plex Sans', sans-serif;
     }
 }
 
-
+html {
+    width: 100vw;
+}
 
 body {
     background-color: $primary-color;
     font-family: $font-stack;
-    width: 100vw;
 }
 nav {
-    width: auto;
+    width: 100vw;
     @include flexcenter(row, space-between, center);
     color: $primary-color;
     background-color: $cuaternary-color;
-    width: 100%;
     p {
         font-size: 1.5rem;
         padding-left: 30px;
@@ -176,7 +179,7 @@ section {
 
 footer {
     background-color: $cuaternary-color;
-    width: 100%;
+    width: 100vw;
     height: auto;
     color: $primary-color;
     text-align: center;

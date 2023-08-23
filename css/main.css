@@ -4,21 +4,23 @@
   padding: 0;
 }
 
-body {
-  background-color: #F0F5F9;
-  font-family: "IBM Plex Sans", sans-serif;
+html {
   width: 100vw;
 }
 
+body {
+  background-color: #F0F5F9;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
 nav {
-  width: auto;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   color: #F0F5F9;
   background-color: #1E2022;
-  width: 100%;
 }
 nav p {
   font-size: 1.5rem;
@@ -165,7 +167,7 @@ section .main-projects .product-card p {
 
 footer {
   background-color: #1E2022;
-  width: 100%;
+  width: 100vw;
   height: auto;
   color: #F0F5F9;
   text-align: center;
