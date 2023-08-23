@@ -1,6 +1,8 @@
 article {
    display: flex;
+   justify-content: space-evenly;
    .impact-section {
+    width: 70%;
     h1 {
         padding-right: 3rem;
     }

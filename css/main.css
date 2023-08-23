@@ -2,10 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-html {
-  width: 100vw;
+  overflow-x: hidden;
 }
 
 body {
@@ -15,6 +12,7 @@ body {
 
 nav {
   width: 100vw;
+  height: 4rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -23,7 +21,7 @@ nav {
   background-color: #1E2022;
 }
 nav p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   padding-left: 30px;
   font-weight: bold;
 }
@@ -38,8 +36,8 @@ nav .icons .logo {
   padding-right: 15px;
 }
 nav .icons .logo img {
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 .main-section {
@@ -47,23 +45,25 @@ nav .icons .logo img {
 }
 
 article {
-  width: auto;
+  width: 100vw;
   color: #596E79;
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 article .impact-section {
   display: flex;
   flex-direction: column;
   padding-top: 50px;
   gap: 25px;
+  width: 100%;
 }
 article h1 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   padding: 0;
   margin: 0;
 }
 article p {
+  height: auto;
   font-size: 1.1rem;
   text-align: justify;
 }
@@ -93,7 +93,7 @@ article .image-section {
 article .image-section img {
   display: block;
   margin: 0 auto;
-  width: 14rem;
+  width: 12.5rem;
   border-radius: 20px;
 }
 

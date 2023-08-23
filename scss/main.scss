@@ -12,6 +12,7 @@ $font-stack: 'IBM Plex Sans', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 // mixin con argumentos
@@ -29,9 +30,7 @@ $font-stack: 'IBM Plex Sans', sans-serif;
     }
 }
 
-html {
-    width: 100vw;
-}
+
 
 body {
     background-color: $primary-color;
@@ -39,11 +38,12 @@ body {
 }
 nav {
     width: 100vw;
+    height: 4rem;
     @include flexcenter(row, space-between, center);
     color: $primary-color;
     background-color: $cuaternary-color;
     p {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         padding-left: 30px;
         font-weight: bold;
     }
@@ -53,8 +53,8 @@ nav {
         .logo {
             padding-right: 15px;
             img {
-                width: 2rem;
-                height: 2rem;
+                width: 3rem;
+                height: 3rem;
             }
         }
     }
@@ -63,10 +63,10 @@ nav {
     width: 100vw;
 }
 article {
-    width: auto;
+    width: 100vw;
     color: $primary-text-color;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 12px;
+    padding-right: 12px;
 
 
     .impact-section {
@@ -74,13 +74,15 @@ article {
         flex-direction: column;
         padding-top: 50px;
         gap: 25px;
+        width: 100%;
     }
         h1 {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             padding: 0;
             margin: 0;
         }
         p {
+            height: auto;
             font-size: 1.1rem;
             text-align: justify;
         }
@@ -107,7 +109,7 @@ article {
         img {
             display: block;
             margin: 0 auto;
-            width: 14rem;
+            width: 12.5rem;
             border-radius: 20px;
         } 
     }
